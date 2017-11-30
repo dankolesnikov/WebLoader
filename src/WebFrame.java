@@ -8,6 +8,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.concurrent.Semaphore;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.table.DefaultTableModel;
@@ -16,20 +17,50 @@ public class WebFrame extends JFrame {
     private ArrayList<String> urls;
     private JProgressBar pbar;
     private JLabel stateOfWorker;
-    private  int MY_MINIMUM_BAR = 0 ;
-    private int numberOfThread;
+    private  int MY_MINIMUM_BAR;
+    private int runnningThreadCount;
     private JLabel numberOfThreadRunningLabel;
     private JLabel numberOfThreadRunning;
+    private int userDefinedNumberOfThread;
+    private boolean isInterrupt;
+    private WebWorker a;
 
     public WebFrame(){
-        numberOfThread = 0;
-
+        a = new WebWorker();
+        isInterrupt = false;
+        MY_MINIMUM_BAR = 0;
+        userDefinedNumberOfThread = 0;
+        runnningThreadCount = 0;
         urls = new ArrayList<>();
         stateOfWorker = new JLabel("    not running");
         pbar = new JProgressBar();
         pbar.setMinimum(MY_MINIMUM_BAR);
-        numberOfThreadRunning = new JLabel(Integer.toString(numberOfThread));
+        numberOfThreadRunning = new JLabel(Integer.toString(runnningThreadCount));
         numberOfThreadRunningLabel = new JLabel ("Number of Thread running: ");
+    }
+
+    public WebWorker getA() {
+        return a;
+    }
+
+    public void setA(WebWorker a) {
+        this.a = a;
+    }
+
+    public boolean isInterrupt() {
+        return isInterrupt;
+    }
+
+    public void setInterrupt(boolean interrupt) {
+        isInterrupt = interrupt;
+    }
+
+    public int getUserDefinedNumberOfThread() {
+        return userDefinedNumberOfThread;
+    }
+
+    public void setUserDefinedNumberOfThread(int userDefinedNumberOfThread) {
+        this.userDefinedNumberOfThread = userDefinedNumberOfThread;
     }
 
     public JLabel getNumberOfThreadRunning() {
@@ -40,12 +71,12 @@ public class WebFrame extends JFrame {
         return numberOfThreadRunningLabel;
     }
 
-    public synchronized void setNumberOfThread(int numberOfThread) {
-        this.numberOfThread = numberOfThread;
+    public synchronized void setRunningThreadCount(int numberOfThread) {
+        this.runnningThreadCount = numberOfThread;
     }
 
-    public int getNumberOfThread() {
-        return numberOfThread;
+    public int getRunningThreadCount() {
+        return runnningThreadCount;
     }
 
     public JLabel getStateOfWorker() {
@@ -75,68 +106,114 @@ public class WebFrame extends JFrame {
         JButton singleThreadFetch = new JButton("Single-Thread Fetch");
         JButton concurrentFetch = new JButton("Concurrent Fetch");
         JButton stop = new JButton(" Stop");
+        concurrentFetch.setEnabled(false);
 
         //create spinner to select number of thread to run concurrently
         JLabel headerLabel = new JLabel();
         headerLabel.setText("Number of Threads");
-        SpinnerModel spinnerModel = new SpinnerNumberModel(5, //initial value
+        SpinnerModel spinnerModel = new SpinnerNumberModel(0, //initial value
                 0, //min
                 100, //max
                 1);//step
         JSpinner spinner = new JSpinner(spinnerModel);
+
         spinner.addChangeListener(new ChangeListener() {
             public void stateChanged(ChangeEvent e) {
-                // statusLabel.setText("Value : " + ((JSpinner)e.getSource()).getValue());
+                Integer numberOfThreadSelected = (Integer)((JSpinner)e.getSource()).getValue();
+                 frame.setUserDefinedNumberOfThread(numberOfThreadSelected);
+                 System.out.println("number of thread selected is ---- "+frame.getUserDefinedNumberOfThread());
+                 //spinner.setEnabled(false);
+                 concurrentFetch.setEnabled(true);
             }
         });
 
 
-        //TODO: Grab a txt file with urls; load it; fetch urls; for each url create a new row in the table and 2 buttons: Fetch, Stop;
-        // TODO: For each url create a webworker
-        // TODO: Implement state design pattern
+        // listener for single thread fetch
+        singleThreadFetch.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Thread launcherThread = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                frame.setUserDefinedNumberOfThread(1);
+                WebWorker a = frame.getA();
+                Iterator<String> itrNew = frame.getUrls().iterator();
 
+                while (itrNew.hasNext() && !a.isAlive()){
+                    a = new WebWorker(itrNew.next(),frame,new Semaphore(frame.getUserDefinedNumberOfThread()));
+                   frame.setA(a);
+
+                    if(frame.isInterrupt){
+                        break;
+                    }
+
+                    a.start();
+
+                    //frame.getA().interrupt();
+                   // System.out.println("a is alive: " + a.isAlive());
+
+                    try {
+                        a.join();
+                       // System.out.println("a is alive: " + a.isAlive());
+                    } catch (InterruptedException e1) {
+                        e1.printStackTrace();
+                    }
+                }
+                    }
+                });
+                launcherThread.start();
+                singleThreadFetch.setEnabled(false);
+                stop.setEnabled(true);
+            }
+        });
+
+        // listener for concurrent thread fetch
+        concurrentFetch.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Thread launcherThread = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        System.out.println("inside launcher begin " + frame.getRunningThreadCount());
+                        frame.setRunningThreadCount(frame.getRunningThreadCount() + 1);
+                        frame.getNumberOfThreadRunning().setText(Integer.toString(frame.getRunningThreadCount()));
+                        System.out.println("inside launcher increase " + frame.getRunningThreadCount());
+
+                        Iterator<String> itrNew = frame.getUrls().iterator();
+                        while (itrNew.hasNext()){
+                            new WebWorker(itrNew.next(),frame,new Semaphore(frame.getUserDefinedNumberOfThread())).start();
+                        }
+                        //PROBLEM NOTE: it launch 4 threads cuz of 4 rows but they
+                        // eventually line up for 2 semaphore
+                        
+                        frame.setRunningThreadCount(frame.getRunningThreadCount() - 1);
+                        System.out.println("inside launcher decrease " + frame.getRunningThreadCount());
+                        frame.getNumberOfThreadRunning().setText(Integer.toString(frame.getRunningThreadCount()));
+                    }
+                });
+                launcherThread.start();
+                concurrentFetch.setEnabled(false);
+                spinner.setEnabled(true);
+            }
+        });
+
+        //stop button top interrupt thread
+        stop.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.setInterrupt(true);
+                frame.getA().interrupt();
+                singleThreadFetch.setEnabled(true);
+                stop.setEnabled(false);
+            }
+        });
+
+        //load text file and add more rows
         frame.loadFile(args[0]);
-
         Iterator<String> itr = frame.getUrls().iterator();
         while (itr.hasNext()){
            model.addRow(new String[] {itr.next(), "put status here"});
-
         }
-
-        Thread launcherThread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("inside launcher begin " + frame.getNumberOfThread());
-                frame.setNumberOfThread(frame.getNumberOfThread() + 1);
-                frame.getNumberOfThreadRunning().setText(Integer.toString(frame.getNumberOfThread()));
-                System.out.println("inside launcher increase " + frame.getNumberOfThread());
-                Iterator<String> itrNew = frame.getUrls().iterator();
-        while (itrNew.hasNext()){
-            new WebWorker(itrNew.next(),frame).start();
-        }
-
-                frame.setNumberOfThread(frame.getNumberOfThread() - 1);
-                System.out.println("inside launcher decrease " + frame.getNumberOfThread());
-
-                frame.getNumberOfThreadRunning().setText(Integer.toString(frame.getNumberOfThread()));
-
-            }
-        });
-
-        launcherThread.start();
-
-
-//        Iterator<String> itrNew = frame.getUrls().iterator();
-//        while (itrNew.hasNext()){
-//            new WebWorker(itrNew.next()).start();
-//        }
-//
-//        WebWorker worker1 = new WebWorker(url1);
-//        worker1.run();
-
-
-
-
 
         //create progress bar base on number of urls are being working on
         frame.getPbar().setMaximum(frame.getUrls().size());
@@ -160,21 +237,21 @@ public class WebFrame extends JFrame {
         frame.pack();
         frame.setVisible(true);
 
-        //example loop to update progress bar
-        for (int i = 0; i <= frame.getUrls().size(); i++) {
-            final int percent = i;
-            try {
-                SwingUtilities.invokeLater(new Runnable() {
-                    public void run() {
-                        frame.updateBar(percent);
-                    }
-                });
-                java.lang.Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                ;
-            }
-        }
-
+//        example loop to update progress bar
+//        for (int i = 0; i <= frame.getUrls().size(); i++) {
+//            final int percent = i;
+//            try {
+//                SwingUtilities.invokeLater(new Runnable() {
+//                    public void run() {
+//                        frame.updateBar(percent);
+//                    }
+//                });
+//                java.lang.Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                ;
+//            }
+//        }
+//
     }
 
     //load text file of urls
