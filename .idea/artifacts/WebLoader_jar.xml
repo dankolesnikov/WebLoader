@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WebLoader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebLoader_jar</output-path>
+    <root id="archive" name="WebLoader.jar">
+      <element id="module-output" name="WebLoader" />
+    </root>
+  </artifact>
+</component>

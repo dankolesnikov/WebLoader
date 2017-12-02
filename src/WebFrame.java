@@ -86,7 +86,7 @@ public class WebFrame extends JFrame {
                     @Override
                     public void run() {
                 frame.setUserDefinedNumberOfThread(1);
-                WebWorker [] a = frame.getReferenceOfWorkers();
+                WebWorker[] a = frame.getReferenceOfWorkers();
                 Iterator<String> itrNew = frame.getUrls().iterator();
                 Semaphore tempSem = new Semaphore(frame.getUserDefinedNumberOfThread());
                 int count = 0;
@@ -202,16 +202,21 @@ public class WebFrame extends JFrame {
     }
 
     //load text file of urls
-    public void loadFile(String fileName) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(fileName));
-        try {
-            String line = br.readLine();
-            while (line != null) {
-                urls.add(line);
-                line = br.readLine();
+    public void loadFile(String fileName) {
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(fileName));
+            try {
+                String line = br.readLine();
+                while (line != null) {
+                    urls.add(line);
+                    line = br.readLine();
+                }
+            } finally {
+                br.close();
             }
-        } finally {
-            br.close();
+        }
+        catch (IOException e){
+            System.out.println("File not found!");
         }
     }
 

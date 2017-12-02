@@ -1,9 +1,7 @@
 import java.io.*;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.concurrent.Semaphore;
-
 
 /**
  * WebWorker is a subclass of Thread that downloads the content for one url. The "Fetch" buttons ultimately fork off a few WebWorkers.
@@ -34,7 +32,6 @@ public class WebWorker extends Thread {
             webFrameRef.getSingleThreadFetch().setEnabled(false);
             webFrameRef.getConcurrentFetch().setEnabled(false);
             webFrameRef.getStateOfWorker().setText("    Running !!!");
-
 
             System.out.println("Fetching...." + urlString);
             StringBuilder contents;
@@ -84,15 +81,13 @@ public class WebWorker extends Thread {
             }
         }
         // Otherwise control jumps to a catch...
-        catch(MalformedURLException ignored) {
+        catch(IOException ignored) {
             System.out.println("Exception: " + ignored.toString());
         }
         catch(InterruptedException exception) {
             System.out.println(this.getName() + " is interrupted ");
         }
-        catch(IOException ignored) {
-            System.out.println("Exception: " + ignored.toString());
-        }
+
         finally {
             try{
                 if (input != null) input.close();
@@ -102,10 +97,15 @@ public class WebWorker extends Thread {
     }
 
     // download() method attempt to download an html file
-    private void download(String fileName,String html) throws FileNotFoundException {
-        File file = new File(fileName);
-        PrintWriter out = new PrintWriter(file);
-        out.println(html);
-        out.close();
+    private void download(String fileName,String html) {
+        try{
+            File file = new File(fileName);
+            PrintWriter out = new PrintWriter(file);
+            out.println(html);
+            out.close();
+        }
+        catch (FileNotFoundException e){
+            System.out.println("Exception: "+e);
+        }
     }
 }

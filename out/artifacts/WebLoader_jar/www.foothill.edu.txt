@@ -183,6 +183,31 @@
                   <div class="slide">
                      <div class="p-promo overlayv2 right">
                         <div class="item">
+                           <div class="home-banner-overlay"><img alt="Featured Winter Classes" src="https://foothill.edu/images/.private_ldp/a99/production/master/e6fbe86a-7c41-495f-ba6f-3434e97c5bac.jpeg"></div>
+                        </div>
+                        <div class="promo-container">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-6">
+                                    <h2>
+                                       														Featured Winter Classes
+                                       													
+                                    </h2>
+                                    <p>
+                                       														It's not too late! We've got open classes to fit your interests and
+                                       needs. 
+                                       													
+                                    </p><a href="/schedule/open.html" class="learn-more">
+                                       															Check Out The Selection
+                                       														</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide">
+                     <div class="p-promo overlayv2 left">
+                        <div class="item">
                            <div class="home-banner-overlay"><img alt="Register for Winter Quarter" src="https://foothill.edu/images/.private_ldp/a99/production/master/8820f4a1-5128-4191-8d91-f70fda142bc1.jpg"></div>
                         </div>
                         <div class="promo-container">
@@ -194,7 +219,7 @@
                                        													
                                     </h2>
                                     <p>
-                                       														Registration runs Nov. 15-Jan. 7. Classes start Jan. 8
+                                       														Registration runs Nov. 15-Jan. 7. Classes start Jan. 8.
                                        													
                                     </p><a href="/schedule/" class="learn-more">
                                        															View Winter 2018 Classes
@@ -205,7 +230,7 @@
                      </div>
                   </div>
                   <div class="slide">
-                     <div class="p-promo overlayv2 left">
+                     <div class="p-promo overlayv2 right">
                         <div class="item">
                            <div class="home-banner-overlay"><img alt="Sunnyvale Center " src="https://foothill.edu/images/.private_ldp/a99/production/master/d2f81add-6f60-4478-b67a-d6604aa1c244.jpg"></div>
                         </div>
@@ -229,7 +254,7 @@
                      </div>
                   </div>
                   <div class="slide">
-                     <div class="p-promo overlayv2 right">
+                     <div class="p-promo overlayv2 left">
                         <div class="item">
                            <div class="home-banner-overlay"><img alt="Associate Degree for Transfer" src="https://foothill.edu/images/.private_ldp/a99/production/master/d0b6bce1-ac4a-440f-a7fd-ad2d7a805d5c.jpg"></div>
                         </div>
@@ -253,7 +278,7 @@
                      </div>
                   </div>
                   <div class="slide">
-                     <div class="p-promo overlayv2 left">
+                     <div class="p-promo overlayv2 right">
                         <div class="item">
                            <div class="home-banner-overlay"><img alt="Meet with a Counselor" src="https://foothill.edu/images/.private_ldp/a99/production/master/d6f1c6b3-8fe5-4404-8038-d2d9d2494075.jpg"></div>
                         </div>
@@ -266,59 +291,10 @@
                                        													
                                     </h2>
                                     <p>
-                                       														Complete your Ed Plan. Get help with your Fall 2018 UC CSU applications.
-                                       Due Thursday, Nov. 30!
+                                       														Map out your education goals. Complete your Ed Plan. 
                                        													
                                     </p><a href="/counseling/counselappt.html" class="learn-more">
                                        															Make an Appointment
-                                       														</a></div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="p-promo overlayv2 right">
-                        <div class="item">
-                           <div class="home-banner-overlay"><img alt="Our Tutors are Here for You!" src="https://foothill.edu/images/.private_ldp/a99/production/master/fa7f950a-becb-4708-bba2-1a9446e474ae.jpg"></div>
-                        </div>
-                        <div class="promo-container">
-                           <div class="container">
-                              <div class="row">
-                                 <div class="col-xs-12 col-md-6">
-                                    <h2>
-                                       														Our Tutors are Here for You!
-                                       													
-                                    </h2>
-                                    <p>
-                                       														Get help meeting your goals during the quarter. 
-                                       													
-                                    </p><a href="/tutoring/" class="learn-more">
-                                       															See what we offer
-                                       														</a></div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="p-promo overlayv2 left">
-                        <div class="item">
-                           <div class="home-banner-overlay"><img alt="Welcome to Our New Website" src="https://foothill.edu/images/.private_ldp/a99/production/master/e6fbe86a-7c41-495f-ba6f-3434e97c5bac.jpeg"></div>
-                        </div>
-                        <div class="promo-container">
-                           <div class="container">
-                              <div class="row">
-                                 <div class="col-xs-12 col-md-6">
-                                    <h2>
-                                       														Welcome to Our New Website
-                                       													
-                                    </h2>
-                                    <p>
-                                       														A new and improved Foothill College website has launched!
-                                       													
-                                    </p><a href="/web-support/" class="learn-more">
-                                       															Check Out New Features
                                        														</a></div>
                               </div>
                            </div>
@@ -333,34 +309,34 @@
                <div class="row">
                   <div class="col-xs-12">
                      <ul class="nav nav-tabs home-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#d12e190-1" aria-controls="tab-1" role="tab" data-toggle="tab">Earn a Degree or Certificate
+                        <li role="presentation" class="active"><a href="#d12e172-1" aria-controls="tab-1" role="tab" data-toggle="tab">Earn a Degree or Certificate
                               <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
                         </li>
-                        <li role="presentation"><a href="#d12e190-2" aria-controls="tab-1" role="tab" data-toggle="tab">Transfer to a 4-Year University
+                        <li role="presentation"><a href="#d12e172-2" aria-controls="tab-1" role="tab" data-toggle="tab">Transfer to a 4-Year University
                               <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
                         </li>
-                        <li role="presentation"><a href="#d12e190-3" aria-controls="tab-1" role="tab" data-toggle="tab">Take Classes for Personal Enrichment
+                        <li role="presentation"><a href="#d12e172-3" aria-controls="tab-1" role="tab" data-toggle="tab">Take Classes for Personal Enrichment
                               <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
                         </li>
-                        <li role="presentation"><a href="#d12e190-4" aria-controls="tab-1" role="tab" data-toggle="tab">Build Basic Skills
+                        <li role="presentation"><a href="#d12e172-4" aria-controls="tab-1" role="tab" data-toggle="tab">Build Basic Skills
                               <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
                         </li>
-                        <li role="presentation"><a href="#d12e190-5" aria-controls="tab-1" role="tab" data-toggle="tab">Train for a Career
+                        <li role="presentation"><a href="#d12e172-5" aria-controls="tab-1" role="tab" data-toggle="tab">Train for a Career
                               <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
                         </li>
                      </ul>
                      <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade in active" id="d12e190-1">
+                        <div role="tabpanel" class="tab-pane fade in active" id="d12e172-1">
                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
@@ -380,7 +356,7 @@
                               </div>
                            </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="d12e190-2">
+                        <div role="tabpanel" class="tab-pane fade" id="d12e172-2">
                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
@@ -400,7 +376,7 @@
                               </div>
                            </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="d12e190-3">
+                        <div role="tabpanel" class="tab-pane fade" id="d12e172-3">
                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
@@ -420,7 +396,7 @@
                               </div>
                            </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="d12e190-4">
+                        <div role="tabpanel" class="tab-pane fade" id="d12e172-4">
                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
@@ -440,7 +416,7 @@
                               </div>
                            </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="d12e190-5">
+                        <div role="tabpanel" class="tab-pane fade" id="d12e172-5">
                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
                               <polygon points="0 0 100 0 50 10"></polygon>
                            </svg>
