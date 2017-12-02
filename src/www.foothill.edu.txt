@@ -1,0 +1,912 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <title>Foothill College | Home</title>
+      <meta property="og:title" content="Foothill College | Home - Foothill College">
+      <meta property="og:url" content="https://foothill.edu/index.html">
+      <meta property="og:description" content="">
+      <meta property="og:site_name" content="Foothill College | Home">
+      <meta property="og:locale" content="en_US">
+      <meta property="og:type" content="website">
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:url" content="https://foothill.edu/index.html">
+      <meta name="twitter:title" content="Foothill College | Home - Foothill College">
+      <meta name="twitter:description" content="">
+<!-- this is the headcode include -->
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700%7COpen+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic%7CLora:400,400italic,700,700italic%7Ckaushan%7CPT+Mono' rel='stylesheet' type='text/css'>
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900%7CKaushan+Script%7CYesteryear' rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" type="text/css" href="/_resources/libraries/font-awesome-4.3.0/css/font-awesome.css"/>
+<link rel="stylesheet" type="text/css" href="/_resources/css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="/_resources/libraries/owl-carousel2/assets/owl.carousel.css"/>
+<link rel="stylesheet" type="text/css" href="/_resources/css/screen.css"/>
+<link rel="stylesheet" type="text/css" href="/_resources/css/custom.css"/>
+<link rel="stylesheet" media="print" type="text/css" href="/_resources/css/print.css"/>
+<!--[if IE]>
+	<link href="/_resources/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link rel="stylesheet" href="/_resources/css/oustyles.css" />
+<style>					
+			#whats_happening {
+				background: url(/_resources/images/bg/whats-happening-backgrnd.jpg) no-repeat center center fixed;
+				background-size: cover;
+				padding: 75px 0;
+			}			
+			#success_stories {
+				background: url(/_resources/images/bg/success-stories.jpg) no-repeat center center fixed;
+				background-size: cover;
+				padding: 75px 0;
+				overflow-x: hidden;
+			}
+		</style>
+      
+      <link rel="icon" href="/favicon.ico?v=2">
+      
+      
+
+
+<style type="text/css">
+
+.inlinefix a,
+.inlinefix br,
+.inlinefix strong,
+.inlinefix b,
+.inlinefix em,
+.inlinefix i,
+.inlinefix u,
+.inlinefix span,
+.inlinefix span br,
+.inlinefix span a,
+.inlinefix span strong,
+.inlinefix span b,
+.inlinefix span em,
+.inlinefix span i,
+.inlinefix span u,
+.inlinefix p,
+.inlinefix p a,
+.inlinefix p br,
+.inlinefix p strong,
+.inlinefix p b,
+.inlinefix p em,
+.inlinefix p i,
+.inlinefix p u,
+.inlinefix p span,
+.inlinefix p br,
+.inlinefix ol li a,
+.inlinefix ul li a,
+.inlinefix td a,
+.inlinefix td strong,
+.inlinefix td b,
+.inlinefix td em,
+.inlinefix td i,
+.inlinefix td u
+{
+    display: inline;
+    float: none;
+}
+
+
+
+</style>
+
+      
+      <script type="text/javascript">
+            var OUC = OUC || {};
+            OUC.globalProps = OUC.globalProps || {};
+            
+            OUC.props = OUC.props || {};
+            
+                OUC.globalProps['path'] = "/index.html";
+                OUC.globalProps['domain'] = "https://foothill.edu";
+                OUC.globalProps['index-file'] = "index";
+                OUC.globalProps['extension'] = "html";
+            
+            var key;
+            for (key in OUC.globalProps) {
+            OUC.props[key] = OUC.globalProps[key];
+            }
+            
+        </script><script type="text/javascript">
+					var page_url="https://foothill.edu/index.html";
+				</script></head>
+   <body class="home one-column fold-out"><a tabindex="0" class="skip" href="#main-content"> Skip to Main Content </a><header>
+   <div class="l-head">
+      <div class="mobi-toggle-wrapper">
+         <div tabindex="0" class="toggle">
+            <div class="toggle-element"></div>
+         </div>
+      </div>
+      <div class="mobi-toggle-container">
+         <div class="utility">
+            <div class="container">
+               <div class="search" id="search-appender">
+                  <form action="https://fhsearch.foothill.edu/search"><input name="site" value="foothill" type="hidden"><input name="client" value="foothill" type="hidden"><input name="proxystylesheet" value="foothill" type="hidden"><input name="output" value="xml_no_dtd" type="hidden"><label for="as_q" class="sr-only">Search</label><input title="search" aria-label="search" id="as_q" class="search" type="text" name="q"><button id="site_search_button" type="submit" name="sa" value="" aria-label="submit site search"><span class="fa fa-search"></span></button></form>
+               </div>
+               <div class="drop-container utility-menu mobile">
+                  <div class="drop-item" id="utility-appender">
+                     <ul>
+                        <li><a title="View important academic dates and deadlines." href="/calendar/">Calendar</a></li>
+                        <li><a href="/news/">News</a></li>
+                        <li><a href="/events/">Events</a></li>
+                        <li><a href="/directory/">Directory</a></li>
+                        <li><a href="/library/">Library</a></li>
+                        <li><a href="http://books.foothill.edu/home.aspx">Bookstore</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="https://myportal.fhda.edu/cp/home/displaylogin">MyPortal</a></li>
+                        <li><a href="/schedule/">Class Schedule</a></li>
+                        <li><a href="/onlinelearning/">Online Learning</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="drop-container gateway-menu mobile" id="gateway-appender"><button class="drop-toggle">Info for</button><div class="drop-item">
+                     <ul>
+                        <li><a title="International Student Program Gateway" href="/international/">International Students</a></li>
+                        <li><a href="/current/">Current Students</a></li>
+                        <li><a href="/fac-staff/">Faculty &amp; Staff</a></li>
+                        <li><a href="/transfergw/">Transfer Students</a></li>
+                        <li><a href="/veterans/">Military &amp; Veterans</a></li>
+                        <li><a href="/drc/">Students with Disabilities</a></li>
+                        <li><a href="/community/">Community</a></li>
+                        <li><a href="https://foundation.fhda.edu/">Giving</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="main-nav-container wrapper">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12"><a class="site-logo" href="/"><img src="/_resources/images/logo.png" alt="Site Logo"></a><div class="nav-wrapper">
+                        <div class="b-column"><a class="desk-sticky" href="/"><img alt="Foothill College Logo" src="/_resources/images/logo.png"></a><ul class="main-nav">
+                              <li id="nav-0" class="nav"><a href="/about/">About Us</a></li>
+                              <li id="nav-1" class="nav"><a href="/programs/">Programs &amp; Courses</a></li>
+                              <li id="nav-2" class="nav active"><a href="/reg/">Apply &amp; Register</a></li>
+                              <li id="nav-3" class="nav"><a href="/cost-fa/">Costs &amp; Financial Aid</a></li>
+                              <li id="nav-4" class="nav"><a href="/services/">Student Services</a></li>
+                              <li id="nav-5" class="nav"><a href="/studentlife">Student Life &amp; Campus Resources</a></li>
+                              <li id="nav-6" class="nav"><a href="/sunnyvale/">Sunnyvale Center</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header><div class="l-page" id="main-content" tabindex="-1">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="owl-carousel generic home_banner">
+                  <div class="slide">
+                     <div class="p-promo overlayv2 right">
+                        <div class="item">
+                           <div class="home-banner-overlay"><img alt="Register for Winter Quarter" src="https://foothill.edu/images/.private_ldp/a99/production/master/8820f4a1-5128-4191-8d91-f70fda142bc1.jpg"></div>
+                        </div>
+                        <div class="promo-container">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-6">
+                                    <h2>
+                                       														Register for Winter Quarter
+                                       													
+                                    </h2>
+                                    <p>
+                                       														Registration runs Nov. 15-Jan. 7. Classes start Jan. 8
+                                       													
+                                    </p><a href="/schedule/" class="learn-more">
+                                       															View Winter 2018 Classes
+                                       														</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide">
+                     <div class="p-promo overlayv2 left">
+                        <div class="item">
+                           <div class="home-banner-overlay"><img alt="Sunnyvale Center " src="https://foothill.edu/images/.private_ldp/a99/production/master/d2f81add-6f60-4478-b67a-d6604aa1c244.jpg"></div>
+                        </div>
+                        <div class="promo-container">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-6">
+                                    <h2>
+                                       														Sunnyvale Center 
+                                       													
+                                    </h2>
+                                    <p>
+                                       														Take hybrid GE classes face-to-face on Fridays and finish the work online.
+                                       													
+                                    </p><a href="/sunnyvale/ge-fridays.html" class="learn-more">
+                                       															See What's Offered This Winter 
+                                       														</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide">
+                     <div class="p-promo overlayv2 right">
+                        <div class="item">
+                           <div class="home-banner-overlay"><img alt="Associate Degree for Transfer" src="https://foothill.edu/images/.private_ldp/a99/production/master/d0b6bce1-ac4a-440f-a7fd-ad2d7a805d5c.jpg"></div>
+                        </div>
+                        <div class="promo-container">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-6">
+                                    <h2>
+                                       														Associate Degree for Transfer
+                                       													
+                                    </h2>
+                                    <p>
+                                       														We offer 23 ADTs for admission to a CSU — 10 fully online!
+                                       													
+                                    </p><a href="/adt/degrees.html" class="learn-more">
+                                       															About The Programs
+                                       														</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide">
+                     <div class="p-promo overlayv2 left">
+                        <div class="item">
+                           <div class="home-banner-overlay"><img alt="Meet with a Counselor" src="https://foothill.edu/images/.private_ldp/a99/production/master/d6f1c6b3-8fe5-4404-8038-d2d9d2494075.jpg"></div>
+                        </div>
+                        <div class="promo-container">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-6">
+                                    <h2>
+                                       														Meet with a Counselor
+                                       													
+                                    </h2>
+                                    <p>
+                                       														Complete your Ed Plan. Get help with your Fall 2018 UC CSU applications.
+                                       Due Thursday, Nov. 30!
+                                       													
+                                    </p><a href="/counseling/counselappt.html" class="learn-more">
+                                       															Make an Appointment
+                                       														</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide">
+                     <div class="p-promo overlayv2 right">
+                        <div class="item">
+                           <div class="home-banner-overlay"><img alt="Our Tutors are Here for You!" src="https://foothill.edu/images/.private_ldp/a99/production/master/fa7f950a-becb-4708-bba2-1a9446e474ae.jpg"></div>
+                        </div>
+                        <div class="promo-container">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-6">
+                                    <h2>
+                                       														Our Tutors are Here for You!
+                                       													
+                                    </h2>
+                                    <p>
+                                       														Get help meeting your goals during the quarter. 
+                                       													
+                                    </p><a href="/tutoring/" class="learn-more">
+                                       															See what we offer
+                                       														</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide">
+                     <div class="p-promo overlayv2 left">
+                        <div class="item">
+                           <div class="home-banner-overlay"><img alt="Welcome to Our New Website" src="https://foothill.edu/images/.private_ldp/a99/production/master/e6fbe86a-7c41-495f-ba6f-3434e97c5bac.jpeg"></div>
+                        </div>
+                        <div class="promo-container">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-6">
+                                    <h2>
+                                       														Welcome to Our New Website
+                                       													
+                                    </h2>
+                                    <p>
+                                       														A new and improved Foothill College website has launched!
+                                       													
+                                    </p><a href="/web-support/" class="learn-more">
+                                       															Check Out New Features
+                                       														</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid cream-bg">
+            <div class="container" id="home-tabs">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <ul class="nav nav-tabs home-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#d12e190-1" aria-controls="tab-1" role="tab" data-toggle="tab">Earn a Degree or Certificate
+                              <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                        </li>
+                        <li role="presentation"><a href="#d12e190-2" aria-controls="tab-1" role="tab" data-toggle="tab">Transfer to a 4-Year University
+                              <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                        </li>
+                        <li role="presentation"><a href="#d12e190-3" aria-controls="tab-1" role="tab" data-toggle="tab">Take Classes for Personal Enrichment
+                              <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                        </li>
+                        <li role="presentation"><a href="#d12e190-4" aria-controls="tab-1" role="tab" data-toggle="tab">Build Basic Skills
+                              <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                        </li>
+                        <li role="presentation"><a href="#d12e190-5" aria-controls="tab-1" role="tab" data-toggle="tab">Train for a Career
+                              <div class="toggle"><span class="fa fa-caret-right"></span></div></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                        </li>
+                     </ul>
+                     <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="d12e190-1">
+                           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                           <div class="accordion-wrap">
+                              <div class="row">
+                                 <div class="hidden-xs hidden-sm col-md-5 col-lg-4"><img src="/images/tab/front-tab-earn-degree330.png" alt="Female in graduation cap" width="330" height="330"></div>
+                                 <div class="col-xs-12 col-md-7 col-lg-8">
+                                    
+                                    <h2>Earn a Degree or Certificate</h2>
+                                    
+                                    <h3>We offer 74 associate degrees and 36 certificates.</h3>
+                                    
+                                    <p>Learning is not all about earning a degree, but there's no reason not to get one if
+                                       you're doing the coursework! Check out the possibilities.
+                                    </p>
+                                    <a class="btn btn-primary float-left" href="/earn_a_degree_or_certificate.html">Start Your Future </a></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="d12e190-2">
+                           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                           <div class="accordion-wrap">
+                              <div class="row">
+                                 <div class="hidden-xs hidden-sm col-md-5 col-lg-4"><img src="/images/tab/front-tab-transfer330.png" alt="Female smiling" width="330" height="330"></div>
+                                 <div class="col-xs-12 col-md-7 col-lg-8">
+                                    
+                                    <h2>Transfer to a 4-Year University</h2>
+                                    
+                                    <h3>Let us help you meet your transfer goals</h3>
+                                    
+                                    <p>We'll connect you to the information you need in planning for transfer to four-year
+                                       colleges and universities.
+                                    </p>
+                                    <a class="btn btn-primary float-left" href="/transfer-to-4-year.html"> Find Your Pathway </a></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="d12e190-3">
+                           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                           <div class="accordion-wrap">
+                              <div class="row">
+                                 <div class="hidden-xs hidden-sm col-md-5 col-lg-4"><img src="/images/tab/front-tab-personal-enrich330.png" alt="Female smiling" width="330" height="330"></div>
+                                 <div class="col-xs-12 col-md-7 col-lg-8">
+                                    
+                                    <h2>Take Classes for Personal Enrichment</h2>
+                                    
+                                    <h3>Lifelong learners have more fun</h3>
+                                    
+                                    <p>Whether you're looking to use your hands, expand your mind or move your body, we've
+                                       got classes to satisfy your interests and inspire continuing curiosity.&nbsp;
+                                    </p>
+                                    <a class="btn btn-primary float-left" href="/personal-enrichment.html"> Browse for Classes</a></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="d12e190-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                           <div class="accordion-wrap">
+                              <div class="row">
+                                 <div class="hidden-xs hidden-sm col-md-5 col-lg-4"><img src="/images/tab/front-tab-basic-skills330.png" alt="Male smiling" width="330" height="330"></div>
+                                 <div class="col-xs-12 col-md-7 col-lg-8">
+                                    
+                                    <h2>Build Basic Skills</h2>
+                                    
+                                    <h3>We believe in everyone's ability to succeed</h3>
+                                    
+                                    <p>Our academic support programs help students transition to college-level coursework.
+                                       Check out how we can help you!
+                                    </p>
+                                    <a class="btn btn-primary float-left" href="/build-basic-skills.html"> Take the Next Step </a></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="d12e190-5">
+                           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="triangle" viewbox="0 0 100 10" preserveaspectratio="none" version="1.1">
+                              <polygon points="0 0 100 0 50 10"></polygon>
+                           </svg>
+                           <div class="accordion-wrap">
+                              <div class="row">
+                                 <div class="hidden-xs hidden-sm col-md-5 col-lg-4"><img src="/images/tab/front-tab-career330.png" alt="Male smiling" width="330" height="330"></div>
+                                 <div class="col-xs-12 col-md-7 col-lg-8">
+                                    
+                                    <h2>Train for a Career</h2>
+                                    
+                                    <h3>Develop in-demand skills&nbsp;</h3>
+                                    
+                                    <p>We offer comprehensive training with experienced faculty, modern tools and facilities,
+                                       and a well-earned reputation for excellence. Choose a program to jumpstart your earning
+                                       power.
+                                    </p>
+                                    <a class="btn btn-primary float-left" href="/train-for-career.html"> Explore Options </a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="whats_happening" class="container-fluid">
+            <div class="h2-wrap">
+               <h2>What's Happening</h2>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <div class="happening owlCarousel carousel">
+                        <div class="slide">
+                           <div class="p-promo panel"><a href="/clubs/join.html">
+                                 <div class="item">
+                                    <h3>
+                                       												Come to Club Day Wednesday, Nov. 29 Noon to 1 p.m. 
+                                       											
+                                    </h3>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgcircles" width="240" height="240" viewbox="0 0 240 240">
+                                       <g class="circles">
+                                          <ellipse class="circle_5" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="113.316" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_1" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="120" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_2" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="117.66" cy="112.968" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_3" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="128.76" cy="117" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_4" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="110.7" cy="118.44" rx="103.5" ry="103.5"></ellipse>
+                                       </g>
+                                    </svg><img alt="Come to Club Day Wednesday, Nov. 29 Noon to 1 p.m. " src="https://foothill.edu/images/.private_ldp/a101/production/master/aa7266d3-3c9d-4735-930b-d9c20c813b15.jpg"></div></a></div>
+                        </div>
+                        <div class="slide">
+                           <div class="p-promo panel"><a href="/transfer/reps1db.html">
+                                 <div class="item">
+                                    <h3>
+                                       												Sign Up for College Representative Visits
+                                       											
+                                    </h3>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgcircles" width="240" height="240" viewbox="0 0 240 240">
+                                       <g class="circles">
+                                          <ellipse class="circle_5" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="113.316" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_1" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="120" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_2" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="117.66" cy="112.968" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_3" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="128.76" cy="117" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_4" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="110.7" cy="118.44" rx="103.5" ry="103.5"></ellipse>
+                                       </g>
+                                    </svg><img alt="Sign Up for College Representative Visits" src="https://foothill.edu/images/.private_ldp/a101/production/master/eb16a31b-2e50-4594-95f8-a7368f4b56fd.jpg"></div></a></div>
+                        </div>
+                        <div class="slide">
+                           <div class="p-promo panel"><a href="/dreamers/events.html">
+                                 <div class="item">
+                                    <h3>
+                                       												Food for Thought Thursdays Dreamers &amp; Undocually 
+                                       											
+                                    </h3>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgcircles" width="240" height="240" viewbox="0 0 240 240">
+                                       <g class="circles">
+                                          <ellipse class="circle_5" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="113.316" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_1" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="120" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_2" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="117.66" cy="112.968" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_3" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="128.76" cy="117" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_4" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="110.7" cy="118.44" rx="103.5" ry="103.5"></ellipse>
+                                       </g>
+                                    </svg><img alt="Food for Thought Thursdays Dreamers &amp; Undocually " src="https://foothill.edu/images/.private_ldp/a101/production/master/248a6253-6826-496b-868f-bb9cf43433af.jpg"></div></a></div>
+                        </div>
+                        <div class="slide">
+                           <div class="p-promo panel"><a href="/athletics/">
+                                 <div class="item">
+                                    <h3>
+                                       												Support Our Basketball Teams! Attend a Game 
+                                       											
+                                    </h3>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgcircles" width="240" height="240" viewbox="0 0 240 240">
+                                       <g class="circles">
+                                          <ellipse class="circle_5" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="113.316" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_1" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="120" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_2" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="117.66" cy="112.968" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_3" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="128.76" cy="117" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_4" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="110.7" cy="118.44" rx="103.5" ry="103.5"></ellipse>
+                                       </g>
+                                    </svg><img alt="Support Our Basketball Teams! Attend a Game " src="https://foothill.edu/images/.private_ldp/a101/production/master/0a01c4aa-53fc-4062-b7b0-8620f5ad1798.png"></div></a></div>
+                        </div>
+                        <div class="slide">
+                           <div class="p-promo panel"><a href="/learningcommunities/">
+                                 <div class="item">
+                                    <h3>
+                                       												Join a Learning Community
+                                       											
+                                    </h3>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgcircles" width="240" height="240" viewbox="0 0 240 240">
+                                       <g class="circles">
+                                          <ellipse class="circle_5" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="113.316" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_1" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="120" cy="126" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_2" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="117.66" cy="112.968" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_3" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="128.76" cy="117" rx="103.5" ry="103.5"></ellipse>
+                                          <ellipse class="circle_4" fill="#fbf9f8" fill-opacity="0" stroke="#fbf9f8" stroke-opacity="1" cx="110.7" cy="118.44" rx="103.5" ry="103.5"></ellipse>
+                                       </g>
+                                    </svg><img alt="Join a Learning Community" src="https://foothill.edu/images/.private_ldp/a101/production/master/2ebc47d8-73f4-48f5-a9a6-956f7df7cb9c.jpeg"></div></a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="events_news" class="container-fluid">
+            <div class="h2-wrap">
+               <h2>Events &amp; News</h2>
+            </div>
+            <div class="container">
+               <div id="event-carousel" class="row">
+                  
+                  <div class="col-xs-12">
+                     
+                     <div class="events-news owlCarousel carousel">
+                        
+                        <div class="slide">
+                           
+                           <div class="promo-event noweekday">
+                              
+                              <div class="date">
+                                 
+                                 <div class="month">Dec.</div>
+                                 
+                                 <div class="day">5</div>
+                                 
+                              </div>
+                              
+                              <div class="info">
+                                 
+                                 <h3>Humanities Lecture Series: Nicodemus, Kansas</h3>
+                                 
+                                 <p>12 p.m.</p>
+                                 
+                                 <p>Room 5001</p>
+                                 
+                              </div>
+                              
+                           </div>
+                           
+                        </div>
+                        
+                        <div class="slide">
+                           
+                           <div class="promo-event noweekday">
+                              
+                              <div class="date">
+                                 
+                                 <div class="month">Dec.</div>
+                                 
+                                 <div class="day">6</div>
+                                 
+                              </div>
+                              
+                              <div class="info">
+                                 
+                                 <h3>Costa Rica Study Abroad Info Meeting</h3>
+                                 	
+                                 <p>12 p.m.</p>
+                                 
+                                 <p>Room 1801 </p>
+                                 
+                              </div>
+                              
+                           </div>
+                           
+                        </div>
+                        
+                        <div class="slide">
+                           
+                           <div class="promo-event noweekday">
+                              
+                              <div class="date">
+                                 
+                                 <div class="month">Dec.</div>
+                                 
+                                 <div class="day">7</div>
+                                 
+                              </div>
+                              
+                              <div class="info">
+                                 
+                                 <h3>Immigration Workshop</h3>
+                                 
+                                 <p>12 p.m.</p>
+                                 
+                                 <p>Room 5419</p>
+                                 
+                              </div>
+                              
+                           </div>
+                           
+                        </div>
+                        
+                        <div class="slide">
+                           
+                           <div class="promo-event noweekday">
+                              
+                              <div class="date">
+                                 
+                                 <div class="month">Dec.</div>
+                                 
+                                 <div class="day">8</div>
+                                 
+                              </div>
+                              
+                              <div class="info">
+                                 
+                                 <h3>Fall STEM Showcase</h3>
+                                 
+                                 <p>12 p.m.</p>
+                                 
+                                 <p>Room 4218</p>
+                                 
+                              </div>
+                              
+                           </div>
+                           
+                        </div>
+                        
+                        <div class="slide">
+                           
+                           <div class="promo-event noweekday">
+                              
+                              <div class="date">
+                                 
+                                 <div class="month"></div>
+                                 
+                              </div>
+                              
+                           </div>
+                           
+                        </div>
+                        
+                     </div>
+                     <a class="btn btn-primary" href="/events/"> View All Events </a></div>
+                  
+               </div>
+               <div id="news_articles">
+                  <div class="row">	<div class="col-xs-12 col-md-4">		<div class="news_article">			<div class="news-image">				<svg class="svgcircles" width="240" height="240" viewbox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" >				<g class="circles" >				<ellipse class="circle_5" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="113.316" cy="126" rx="103.5" ry="103.5" />				<ellipse class="circle_1" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="120" cy="126" rx="103.5" ry="103.5" />				<ellipse class="circle_2" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="117.66" cy="112.968" rx="103.5" ry="103.5" />				<ellipse class="circle_3" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="128.76" cy="117" rx="103.5" ry="103.5" />				<ellipse class="circle_4" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="110.7" cy="118.44" rx="103.5" ry="103.5" />				</g>				</svg>			<img src="https://foothill.edu/news/images/news_GIS.jpg" alt=""  style=\"\" height=\"300\" width=\"300\" />			</div>			<div class="news-container">				<a href="https://foothill.edu/news/gis.html">					<h3>Take a Class in Geospatial Technology</h3>				</a>				<p class="news-date">November 22nd, 2017</p>				<p>This booming technology is increasingly used for everything from public safety to city planning.</p>				<a class="read-more" href="https://foothill.edu/news/gis.html">Read More</a>			</div>		</div>	</div>	<div class="col-xs-12 col-md-4">		<div class="news_article">			<div class="news-image">				<svg class="svgcircles" width="240" height="240" viewbox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" >				<g class="circles" >				<ellipse class="circle_5" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="113.316" cy="126" rx="103.5" ry="103.5" />				<ellipse class="circle_1" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="120" cy="126" rx="103.5" ry="103.5" />				<ellipse class="circle_2" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="117.66" cy="112.968" rx="103.5" ry="103.5" />				<ellipse class="circle_3" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="128.76" cy="117" rx="103.5" ry="103.5" />				<ellipse class="circle_4" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="110.7" cy="118.44" rx="103.5" ry="103.5" />				</g>				</svg>			<img src="https://fhweb.foothill.edu/news/images/news178_emergency-alert.jpg" alt=""  style=\"\" height=\"300\" width=\"300\" />			</div>			<div class="news-container">				<a href="https://foothill.edu/news/alert.html">					<h3>Sign Up for Free On-Campus Emergency Alert Service</h3>				</a>				<p class="news-date">November 20th, 2017</p>				<p>Receive voice, e-mail and text messages in the event of an emergency. </p>				<a class="read-more" href="https://foothill.edu/news/alert.html">Read More</a>			</div>		</div>	</div>	<div class="col-xs-12 col-md-4">		<div class="news_article">			<div class="news-image">				<svg class="svgcircles" width="240" height="240" viewbox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" >				<g class="circles" >				<ellipse class="circle_5" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="113.316" cy="126" rx="103.5" ry="103.5" />				<ellipse class="circle_1" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="120" cy="126" rx="103.5" ry="103.5" />				<ellipse class="circle_2" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="117.66" cy="112.968" rx="103.5" ry="103.5" />				<ellipse class="circle_3" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="128.76" cy="117" rx="103.5" ry="103.5" />				<ellipse class="circle_4" fill="#f9c533" fill-opacity="0" stroke="#f9c533" stroke-opacity="1" cx="110.7" cy="118.44" rx="103.5" ry="103.5" />				</g>				</svg>			<img src="https://foothill.edu/news/images/kradkex178.jpg" alt="Foothill psychology instructor Katrina Radke recently traveled to Fiji to compete on Season 35 of the reality show Survivor. "  style=\"\" height=\"300\" width=\"300\" />			</div>			<div class="news-container">				<a href="https://foothill.edu/news/kradke.html">					<h3>Foothill Instructor Competes on Survivor</h3>				</a>				<p class="news-date">September 27th, 2017</p>				<p>Foothill psychology instructor Katrina Radke recently traveled to Fiji to compete on Season 35 of the reality show Survivor. </p>				<a class="read-more" href="https://foothill.edu/news/kradke.html">Read More</a>			</div>		</div>	</div></div>
+               </div><a href="/news/" class="btn btn-primary">View All News</a></div>
+         </div>
+         <div id="success_stories" class="container-fluid">
+            <div class="h2-wrap">
+               <h2>#iamfoothill</h2>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <div class="owl-carousel generic success-stories"><div class="slide">
+   <div class="p-promo half">
+      <div class="item"><img src="/iamfoothill/images/jbergmannx700.jpg" alt="Janis Bergmann" with="300" height="400"></div>
+      <div class="promo-container">
+         <div class="table-wrap">
+            <div class="table-inner">
+               <h2>Janis Bergmann<span>Theatre instructor. Avid reader. </span></h2>
+               <hr>
+               <p>Janis Bergmann enjoys having the opportunity to help students enrich their lives and
+                  reach their creative goals and potential.
+               </p><a href="/iamfoothill/jbergmann.html" class="btn btn-secondary fixed-width">Read Janis' Story</a></div>
+         </div>
+      </div>
+   </div>
+</div><div class="slide">
+   <div class="p-promo half">
+      <div class="item"><img src="/iamfoothill/images/ccooperx400.jpg" alt="Courtney Cooper" with="300" height="400"></div>
+      <div class="promo-container">
+         <div class="table-wrap">
+            <div class="table-inner">
+               <h2>Courtney Cooper<span>Student Trustee. Community College Advocate.</span></h2>
+               <hr>
+               <p>“I’m putting this work in because if we don’t step up no one else will,” said Cooper.
+                  “If I see a gap somewhere, I have a right to step in and ask how I can help.” She
+                  plans to earn a law degree and eventually run a nonprofit.
+               </p><a href="/iamfoothill/ccooper.html" class="btn btn-secondary fixed-width">Read Courtney's Story</a></div>
+         </div>
+      </div>
+   </div>
+</div><div class="slide">
+   <div class="p-promo half">
+      <div class="item"><img src="/iamfoothill/images/mhartsuccessx400.jpg" alt="Missy Hart" with="300" height="400"></div>
+      <div class="promo-container">
+         <div class="table-wrap">
+            <div class="table-inner">
+               <h2>Missy Hart<span>Former foster youth. Future art therapist.</span></h2>
+               <hr>
+               <p>Missy Hart was the first person in her family to get a high school diploma. Next June,
+                  she’ll also become the first to graduate from college. &nbsp;“I always wanted to go to
+                  college, but I didn’t know how to make it happen,” said Hart. “Foothill opened the
+                  door for me.”
+               </p><a href="/iamfoothill/mhart.html" class="btn btn-secondary fixed-width">Read Missy's Story</a></div>
+         </div>
+      </div>
+   </div>
+</div></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="featured_programs" class="container-fluid">
+            <div class="row">
+               <div class="hidden-xs hidden-sm col-md-4">
+                  <div class="fixed-cta">
+                     <div class="table-wrap">
+                        <h2>Featured Program: Geospatial Technology</h2>
+                        
+                        <p>Geospatial technology lets us visualize and interpret data to understand patterns
+                           and trends. This emerging technology can be applied to any field. We offer evening
+                           classes in mapping, digital imaging and much more.
+                        </p>
+                        <a class="btn btn-secondary" href="/gis/">View Our Geospatial Technology Classes</a></div>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-md-8">
+                  <div class="owl-carousel generic featured-programs">
+                     <div class="slide">
+                        <div class="p-promo overlayv2 right">
+                           <div class="item">
+                              <div class="overlay"><img src="/_resources/images/ftd-programs/ftd-program_GIS.jpg" alt="google maps image" width="1300" height="900"></div>
+                           </div>
+                           <div class="promo-container">
+                              <div class="container">
+                                 <div class="row">
+                                    <div class="col-xs-12">
+                                       <h3>Featured Program</h3>
+                                       <hr><a href="/gis/index.html">
+                                          <h4>Geospatial Technology</h4></a></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+<a class="back-to-top" href="#top">
+	<svg width="80" height="80" viewbox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" >
+		<g class="circles-small">
+			<ellipse class="circle_s_1" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="1" cy="42" cx="42" rx="34.5" ry="34.5" />
+			<ellipse class="circle_s_2" fill="#fff" fill-opacity="0" stroke="#fff" stroke-opacity="1" cy="38" cx="38" rx="34.5" ry="34.5" />
+		</g>
+	</svg>
+	Top
+</a>
+      <footer><div class="container">
+   <div class="row">
+      <div class="col-xs-12 copy-text">
+         <p><span><span id="directedit">©</span> Foothill College</span> 12345 El Monte Road, Los Altos Hills, CA 94022 · Established in 1957 ·
+         </p><a href="/accreditation/">Accreditation</a><a href="/about/privacy.html">Privacy</a></div>
+   </div>
+   <div class="row">
+      <div class="col-xs-6 col-sm-3 col-lg-3 col-lg-offset-2">
+         <h4>Campus Information</h4>
+         <ul>
+            <li><a href="/map/">Maps &amp; Locations</a></li>
+            <li><a href="/sunnyvale/">Sunnyvale Center</a></li>
+            <li><a href="/accreditation/">Accreditation</a></li>
+            <li><a title="Visit the Foothill-De Anza Community College District" href="https://www.fhda.edu/">Foothill-De Anza District</a></li>
+         </ul>
+         <h4>Student Resources</h4>
+         <ul>
+            <li><a href="http://scorecard.cccco.edu/scorecardrates.aspx?CollegeID=422" target="_blank">Student Success Scorecard</a></li>
+            <li><a href="https://foothill.intelliresponse.com/students/">Ask Foothill</a></li>
+         </ul>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-lg-3">
+         <h4>Security</h4>
+         <ul>
+            <li><a title="Be Prepared in Case of an Emergency" href="/emergency/" target="_blank">Campus Police &amp; Emergency Information</a></li>
+            <li><a href="/titleix/">Sexual Assault &amp; Discrimination Title IX</a></li>
+            <li><a href="https://foundation.fhda.edu/" target="_blank">Giving/Foundation</a></li>
+         </ul>
+         <h4>Other</h4>
+         <ul>
+            <li><a href="http://books.foothill.edu/home.aspx">Bookstore</a></li>
+            <li><a href="/employment/">Employment</a></li>
+            <li><a href="/directory/site.html">A-Z Index</a></li>
+         </ul>
+      </div>
+      <div class="col-xs-12 col-sm-5 col-lg-4 social-links">
+         <div class="social-links">
+            <h4 class="social-hdr">Connect With Us</h4>
+            <ul>
+               <li class="p-promo button light icon"><a href="https://www.facebook.com/foothillcollege" target="_blank"><span class="fa fa-facebook"></span><p><span class="sr-only">Facebook</span></p></a></li>
+               <li class="p-promo button light icon"><a href="https://twitter.com/Foothillnews" target="_blank"><span class="fa fa-twitter"></span><p><span class="sr-only">Twitter</span></p></a></li>
+               <li class="p-promo button light icon"><a href="https://www.instagram.com/foothillcollege/" target="_blank"><span class="fa fa-instagram"></span><p><span class="sr-only">Instagram</span></p></a></li>
+               <li class="p-promo button light icon"><a href="https://www.flickr.com/photos/foothillcollege/albums/" target="_blank"><span class="fa fa-flickr"></span><p><span class="sr-only">Flickr</span></p></a></li>
+               <li class="p-promo button light icon"><a href="https://www.youtube.com/user/FoothillCollege" target="_blank"><span class="fa fa-youtube"></span><p><span class="sr-only">YouTube</span></p></a></li>
+            </ul>
+         </div>
+         <ul>
+            <li><a href="/directory/contact.html">Contact Us</a></li>
+            <li><a href="/web-support/">Feedback</a></li>
+            <li><a href="/directory/">Directory</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
+<div class="container-fluid">
+   <div class="row"></div>
+</div></footer>
+
+<script>
+	document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
+</script>
+<script type="text/javascript" src="/_resources/libraries/js/js.cookie.js">
+</script>
+<script type="text/javascript" src="/_resources/libraries/js/jquery.hoverIntent.js">
+</script>
+<script type="text/javascript" src="/_resources/libraries/mixitup/build/jquery.mixitup.min.js">
+</script>
+<script type="text/javascript" src="/_resources/libraries/js-cookie/src/js.cookie.js">
+</script>
+<script type="text/javascript" src="/_resources/js/fold-out.js">
+</script>
+<script type="text/javascript" src="/_resources/js/bootstrap.js">
+</script>
+<script type="text/javascript" src="/_resources/libraries/owl-carousel2/owl.carousel.min.js">
+</script>
+<script type="text/javascript" src="/_resources/js/global.js">
+</script>
+<script type="text/javascript" src="/_resources/js/components.js">
+</script>
+<script type="text/javascript">
+	var switchTo5x=true;
+</script>
+<script type="text/javascript" src="/_resources/js/bootstrap-tab.js">
+</script>
+<script>
+	$(function() {  	$( "#faq" ).accordion({  		heightStyle: "content"  	});  });  	
+</script>
+<script src="/_resources/js/direct-edit.js"></script>
+<script type="text/javascript" src="/_resources/js/ou-home.js"></script><!-- Insert google analytics here -->
+
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-1477111-1";
+urchinTracker();
+</script>
+<div id="hidden" style="display:none;">
+         <a id="de" href="http://omniapp.fhda.edu/10?skin=oucampus&amp;account=Foothill&amp;site=FoothillLIVE&amp;action=de&amp;path=/index.pcf">©</a>
+      </div>   </body>
+</html>
