@@ -232,30 +232,6 @@
                   <div class="slide">
                      <div class="p-promo overlayv2 right">
                         <div class="item">
-                           <div class="home-banner-overlay"><img alt="Sunnyvale Center " src="https://foothill.edu/images/.private_ldp/a99/production/master/d2f81add-6f60-4478-b67a-d6604aa1c244.jpg"></div>
-                        </div>
-                        <div class="promo-container">
-                           <div class="container">
-                              <div class="row">
-                                 <div class="col-xs-12 col-md-6">
-                                    <h2>
-                                       														Sunnyvale Center 
-                                       													
-                                    </h2>
-                                    <p>
-                                       														Take hybrid GE classes face-to-face on Fridays and finish the work online.
-                                       													
-                                    </p><a href="/sunnyvale/ge-fridays.html" class="learn-more">
-                                       															See What's Offered This Winter 
-                                       														</a></div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="p-promo overlayv2 left">
-                        <div class="item">
                            <div class="home-banner-overlay"><img alt="Associate Degree for Transfer" src="https://foothill.edu/images/.private_ldp/a99/production/master/d0b6bce1-ac4a-440f-a7fd-ad2d7a805d5c.jpg"></div>
                         </div>
                         <div class="promo-container">
@@ -271,6 +247,30 @@
                                        													
                                     </p><a href="/adt/degrees.html" class="learn-more">
                                        															About The Programs
+                                       														</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide">
+                     <div class="p-promo overlayv2 left">
+                        <div class="item">
+                           <div class="home-banner-overlay"><img alt="Sunnyvale Center " src="https://foothill.edu/images/.private_ldp/a99/production/master/d2f81add-6f60-4478-b67a-d6604aa1c244.jpg"></div>
+                        </div>
+                        <div class="promo-container">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-6">
+                                    <h2>
+                                       														Sunnyvale Center 
+                                       													
+                                    </h2>
+                                    <p>
+                                       														Take hybrid GE classes face-to-face on Fridays and finish the work online.
+                                       													
+                                    </p><a href="/sunnyvale/ge-fridays.html" class="learn-more">
+                                       															See What's Offered This Winter 
                                        														</a></div>
                               </div>
                            </div>

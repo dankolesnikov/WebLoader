@@ -11,7 +11,19 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.table.DefaultTableModel;
 
+/**
+ * @author Danil Kolesnikov danil.kolesnikov@sjsu.edu
+ * @author Minh Phan minh.phan@sjsu.edu
+ * @author Yulan Jin yulan.jin@sjsu.edu
+ * CS 151 Term Project - Whiteboard
+ */
+
+/**
+ * WebFrame class is responsible for handling GUI and the workflow of the program
+ */
+
 public class WebFrame extends JFrame {
+
     private ArrayList<String> urls;
     private JProgressBar pbar;
     private DefaultTableModel model;
@@ -47,7 +59,7 @@ public class WebFrame extends JFrame {
         numberOfThreadRunningLabel = new JLabel ("Number of Thread running: ");
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         WebFrame frame = new WebFrame();
 
         JTable table = new JTable(frame.getModel());

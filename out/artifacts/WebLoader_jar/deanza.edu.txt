@@ -365,7 +365,7 @@ var captionCache = ["<div class='image-title' style='font-size:12px;'>De Anza Co
 					<div id="da_top-tools">    
 						<!-- SEARCH -->
 						<form id="search" name="search" method="get" action="http://gsearch2.fhda.edu/search">
-							<div class="da_header_date">December 1, 2017</div>
+							<div class="da_header_date">December 2, 2017</div>
 							<input type="hidden" name="site" value="Main_Crawl" />
 							<input type="hidden" name="client" value="Main_Crawl" />
 							<input type="hidden" name="proxystylesheet" value="Main_Crawl" />
@@ -519,13 +519,13 @@ var captionCache = ["<div class='image-title' style='font-size:12px;'>De Anza Co
 									<!-- SLIDER CYCLE -->
 			
 										<script type='text/javascript'>
-													var currentImage = 11;
+													var currentImage = 10;
 												</script>										<div class="slideshow">
 											<div class="slide" id="img_div">
-												<img class="slide_image" alt="De Anza Associated Student Body" src="/template/standard/images/homepage/arch/arch_frame_dasb2.jpg" width="362" height="448" id="primaryImage" />
+												<img class="slide_image" alt="De Anza College. Just What You Need." src="/template/standard/images/homepage/arch/arch-frame_jwyn2.jpg" width="362" height="448" id="primaryImage" />
 												<!-- IMAGE CAPTION -->
 												<div class="caption" id="slidecaption" style="z-index:10;"> 
-													<div class='image-title' style='font-size:12px;'>De Anza Associated Student Body</div><div class='image-desc' style='float:right;'><a href='/dasb/'>Get involved with your DASB Senate!</a></div>                           
+													<div class='image-title' style='font-size:12px;'>De Anza College. Just What You Need.</div><div class='image-desc' style='float:right;'><a href='/outreach/'>Welcome future students and parents!</a></div>                           
 												</div> 
 											</div>
 										</div> 
@@ -675,10 +675,10 @@ var captionCache = ["<div class='image-title' style='font-size:12px;'>De Anza Co
 		
 	  <!-- < d i v class = "bottompics" > --> 
 	  
-		<a class="rotating_images" id="first" href="/campus_art/"><img src="/template/standard/images/homepage/rotatingimages/art06.jpg" width="143" height="125" alt="Mural detail - Sublimnalities by John da Guia, Andy Gouveia, Rebecca Hartman, Erin Kawamata, Josh Luke, Maria Pungnetti and Micheal Selby" /></a> 
-		<a class="rotating_images" href="/sustainability/"><img src="/template/standard/images/homepage/rotatingimages/sustain06.jpg" width="143" height="125" alt="Student cycling to class" /></a> 
-		<a class="rotating_images" href="/collegelife/"><img src="/template/standard/images/homepage/rotatingimages/college06.jpg" width="143" height="125" alt="Study group in Sunken Garden" /></a>  
-		<a class="rotating_images" href="/athletics/"><img src="/template/standard/images/homepage/rotatingimages/athletics06.jpg" width="143" height="125" alt="Athletics, Physical Education and Sports at De Anza" /></a>
+		<a class="rotating_images" id="first" href="/campus_art/"><img src="/template/standard/images/homepage/rotatingimages/art04.jpg" width="143" height="125" alt="Mural detail - Sublimnalities by John da Guia, Andy Gouveia, Rebecca Hartman, Erin Kawamata, Josh Luke, Maria Pungnetti and Micheal Selby" /></a> 
+		<a class="rotating_images" href="/sustainability/"><img src="/template/standard/images/homepage/rotatingimages/sustain04.jpg" width="143" height="125" alt="Kirsch Center sign" /></a> 
+		<a class="rotating_images" href="/collegelife/"><img src="/template/standard/images/homepage/rotatingimages/college04.jpg" width="143" height="125" alt="Two students striking poses for camera" /></a>  
+		<a class="rotating_images" href="/athletics/"><img src="/template/standard/images/homepage/rotatingimages/athletics04.jpg" width="143" height="125" alt="Athletics, Physical Education and Sports at De Anza" /></a>
 		<a class="rotating_images" id="last" href="/vtour/"><img src="/template/standard/images/homepage/rotatingimages/support01.jpg" width="143" height="125" alt="Take a virtual tour" style="margin-right:0px" /></a>
 		
 		<div style="text-align:center;padding:6px;">

@@ -9,9 +9,9 @@ import java.util.concurrent.Semaphore;
 
 
 public class WebWorker extends Thread {
-    String urlString;
-    WebFrame webFrameRef;
-    Semaphore semaphore;
+    private String urlString;
+    private WebFrame webFrameRef;
+    private Semaphore semaphore;
 
     public WebWorker(String url, WebFrame frame, Semaphore semaphore) {
         urlString = url;
